@@ -1,7 +1,7 @@
 from os.path import dirname, join
 from setuptools import setup
 
-VERSION = '0.1'
+VERSION = '0.1.1'
 
 install_requires = []
 
@@ -19,7 +19,7 @@ setup_requires = ['setuptools']
 setup(
     name='csv2xslx',
     version=VERSION,
-    description='',
+    description='Converts CSV from stdin into XLSX to stdout',
     long_description=long_description,
     author='Vlada Macek',
     author_email='macek@sandbox.cz',
