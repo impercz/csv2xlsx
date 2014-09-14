@@ -1,0 +1,5 @@
+include MANIFEST.in
+include README.rst
+include requirements.pip
+include setup.py
+include csv2xlsx.py

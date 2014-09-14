@@ -1,7 +1,7 @@
 from os.path import dirname, join
 from setuptools import setup
 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 install_requires = []
 
@@ -24,7 +24,7 @@ setup(
     author='Vlada Macek',
     author_email='macek@sandbox.cz',
     license='BSD',
-    url='https://github.com/impercz/csv2xslx',
+    url='https://github.com/impercz/csv2xlsx',
     py_modules=['csv2xlsx'],
     entry_points={
         'console_scripts': [
