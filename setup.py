@@ -17,7 +17,7 @@ with open(join(dirname(__file__), 'README.rst')) as readme_file:
 setup_requires = ['setuptools']
 
 setup(
-    name='csv2xslx',
+    name='csv2xlsx',
     version=VERSION,
     description='Converts CSV from stdin into XLSX to stdout',
     long_description=long_description,
